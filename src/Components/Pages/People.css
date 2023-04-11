@@ -1,0 +1,56 @@
+/* Center the content vertically and horizontally */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style for the navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Style for the heading and user information */
+h1, h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+strong {
+  margin-right: 1rem;
+}
+
+/* Style for the user information spans */
+span {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Optional styles for the members heading */
+.members {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+}

@@ -1,0 +1,26 @@
+.forms {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #f8f8fa;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+* > * {
+  font-family: "Poppins", cursive;
+  margin: 0;
+}
+
+.link-btn{
+  background-color: #fff;
+  border: none;
+  margin-top: 16px;
+  font-size: 14px;
+  color: rgb(7, 4, 43);
+  text-align: center;
+  cursor: pointer;
+  text-decoration: underline;
+}

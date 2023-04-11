@@ -1,0 +1,64 @@
+.admin-page {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #d8d2e2;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #b8a2db;
+  font-weight: bold;
+}
+
+button {
+  margin-right: 10px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #0a0a0a;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b8aacc;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  /* margin-left: 130px; */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
